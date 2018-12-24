@@ -18,6 +18,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView tvMostrar;
 
     private String urlConnection = "http://www.sic.gov.co/que-es-la-api";
+    
+    /* NEEDs INTERNET permission 
+        <uses-permission android:name="android.permission.INTERNET"/>
+        in MANIFEST file
+    */
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
